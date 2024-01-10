@@ -1,0 +1,65 @@
+html,body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+background-color: rgb(255, 255, 255);  
+}
+
+.main{
+  display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+  align-items: center;
+  color: black;
+}
+
+nav{
+  background-color: rgb(249, 249, 249);
+  border-bottom: 1px solid rgb(200, 200, 200);
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  /* text-decoration: none; */
+
+}
+
+.nav-box{
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  margin-right: 40px;
+}
+
+
+
+.logo{
+  margin-left: 40px;
+  height: 50px;
+}
+
+.text{
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.a-tag{
+  color: rgb(228, 8, 8);
+  transition: 0.3s;
+
+}
+
+.a-tag:hover{
+  color: rgb(72, 72, 72);
+}
+.a{
+  text-decoration: none;
+  border: 1px solid black;
+}
